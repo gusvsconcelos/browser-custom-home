@@ -1,6 +1,6 @@
 body {
     background-color: rgb(0, 0, 0);
-    background-image: url('./imagens/night_city.png');
+    background-image: url('./imagens/rain_world3.jpg');
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,8 +10,9 @@ body {
     background: rgba(0, 0, 0, 0.8);
     color: rgb(205, 205, 205);
     backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
     text-align: center;
-    font-family: Cartograph CF;
+    font-family: Fantasque Sans Mono;
     margin-top: 180px;
     margin-left: 540px;
     margin-right: 540px;
@@ -22,7 +23,7 @@ h1 {
     font-size: 120px;
     margin-bottom: 1px;
     padding-top: 60px;
-    color: #B9616C;
+    color: #8FDAC3;
 }
 
 h2 {
@@ -30,9 +31,10 @@ h2 {
 }
 
 p {
+    font-family: Cartograph CF;
     font-size: 16px;
     font-style: italic;
-    color: rgb(100, 100, 100);
+    color: #5F7475;
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 12px;
@@ -48,7 +50,7 @@ p {
 a {
     text-decoration: none;
     font-size: 22px;
-    color: rgb(190, 190, 190);
+    color: #BCEEEB;
 }
 
 li {
