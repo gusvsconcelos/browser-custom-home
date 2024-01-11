@@ -29,6 +29,10 @@ async function quoteOfTheDay() {
     const quote = await getQuotes()
 
     quoteElement.textContent = `'${quote}'`
+
+    if (quote == undefined) {
+        quoteElement.textContent = "'I know the hatred and envy of your hearts. Ye are not great enough not to know of hatred and envy. Then be great enough not to be ashamed of them.'"
+    }
 }
 
 function darkTheme() {
@@ -39,9 +43,9 @@ function updateFavicon() {
     const favicon = document.getElementById('favicon')
 
     if (darkTheme()) {
-        favicon.href = 'icons/favicon.ico'
+        favicon.href = 'icons/play_white.ico'
     }else {
-        favicon.href = 'icons/favicon-dark.ico'
+        favicon.href = 'icons/play_black.ico'
     }
 }
 

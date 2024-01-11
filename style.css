@@ -1,6 +1,6 @@
 body {
     background-color: rgb(0, 0, 0);
-    background-image: url('./imagens/rain_world3.jpg');
+    background-image: url('./Images/rain_world3.jpg');
     background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-    font-size: 120px;
+    font-size: 130px;
     margin-bottom: 1px;
     padding-top: 60px;
     color: #8FDAC3;
@@ -28,6 +28,7 @@ h1 {
 
 h2 {
     font-size: 23px;
+    color: #BCEEEB;
 }
 
 p {
@@ -47,10 +48,11 @@ p {
     max-width: 700px;
 }
 
-a {
-    text-decoration: none;
-    font-size: 22px;
-    color: #BCEEEB;
+#bookmarks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-right: 27px;
 }
 
 li {
@@ -58,11 +60,10 @@ li {
     padding-bottom: 40px;
 }
 
-#bookmarks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-right: 27px;
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #BCEEEB;
 }
 
 @keyframes blink {
