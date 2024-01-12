@@ -43,9 +43,9 @@ function updateFavicon() {
     const favicon = document.getElementById('favicon')
 
     if (darkTheme()) {
-        favicon.href = 'icons/play_white.ico'
+        favicon.href = 'icons/homewhite.ico'
     }else {
-        favicon.href = 'icons/play_black.ico'
+        favicon.href = 'icons/homeblack.ico'
     }
 }
 
