@@ -1,59 +1,64 @@
-body {
-    background-color: rgb(0, 0, 0);
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+html {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-#panel {
-    background: rgb(0, 0, 0, 0.85);
-    color: rgb(205, 205, 205);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
+body {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    font-family: Fantasque Sans Mono;
-    margin-top: 180px;
-    margin-left: 540px;
-    margin-right: 540px;
-    border-radius: 18px;
+    font-family: Rajdhani;
 }
 
 h1 {
     font-size: 120px;
-    margin-bottom: 1px;
-    padding-top: 40px;
+    margin-bottom: 0px;
     color: #8FDAC3;
 }
 
 h2 {
     font-size: 20px;
     color: #BCEEEB;
+    margin: 0px;
 }
 
 p {
-    font-family: Cartograph CF;
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     color: #5F7475;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 12px;
-    padding-bottom: 5px;
 }
 
 #rule {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #132B2F;
-    max-width: 700px;
+    width: 100%;
 }
 
 #bookmarks {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-right: 27px;
+    padding: 0px 0px 0px 36px;
 }
 
 li {
     list-style-type: none;
-    padding-bottom: 40px;
+    padding: 0 64px 45px 0;
 }
 
 a {
