@@ -28,24 +28,24 @@ body {
 h1 {
     font-size: 120px;
     margin-bottom: 0px;
-    color: #8FDAC3;
+    color: #FA1E4E;
 }
 
 h2 {
     font-size: 20px;
-    color: #BCEEEB;
+    color: #FA1E4E;
     margin: 0px;
 }
 
 p {
     font-size: 16px;
     font-style: italic;
-    color: #5F7475;
+    color: #FA1E4E;
 }
 
 #rule {
     margin-bottom: 30px;
-    color: #132B2F;
+    color: #FA1E4E;
     width: 100%;
 }
 
@@ -64,7 +64,7 @@ li {
 a {
     text-decoration: none;
     font-size: 20px;
-    color: #BCEEEB;
+    color: #FA1E4E;
 }
 
 @keyframes blink {
