@@ -29,12 +29,12 @@ body {
 h1 {
   font-size: 120px;
   margin-bottom: 0px;
-  color: #90be90;
+  color: #30675a;
 }
 
 h2 {
   font-size: 20px;
-  color: #4c634b;
+  color: #557a84;
   margin: 0px;
 }
 
@@ -42,7 +42,7 @@ p {
   font-family: 'Just Another Hand', cursive;
   font-size: 24px;
   font-style: italic;
-  color: #4c634b;
+  color: #c62e76;
 }
 
 #rule {
@@ -67,7 +67,7 @@ li {
 a {
   text-decoration: none;
   font-size: 20px;
-  color: #90be90;
+  color: #30675a;
 }
 
 @keyframes blink {
