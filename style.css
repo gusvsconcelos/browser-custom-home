@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap');
+@import url('https://fontlibrary.org//face/fantasque-sans-mono');
 
 html {
   display: flex;
@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: #131a1e;
   height: 100%;
   width: 40%;
   margin: 0;
@@ -29,7 +29,7 @@ body {
 h1 {
   font-size: 120px;
   margin-bottom: 0px;
-  color: #30675a;
+  color: #3c8070;
 }
 
 h2 {
@@ -39,8 +39,8 @@ h2 {
 }
 
 p {
-  font-family: 'Just Another Hand', cursive;
-  font-size: 24px;
+  font-family: 'Fantasque Sans Mono';
+  font-size: 16px;
   font-style: italic;
   color: #c62e76;
 }
