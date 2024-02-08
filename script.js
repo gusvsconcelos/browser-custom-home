@@ -57,12 +57,13 @@ function updateFavicon() {
   }
 }
 
-window.addEventListener('load', functionLoader, true);
 function functionLoader() {
   time();
   date();
   quoteOfTheDay();
   updateFavicon();
 }
+
+window.addEventListener('load', functionLoader, true);
 
 setInterval(time, 1000);
