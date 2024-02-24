@@ -18,27 +18,27 @@ function date() {
   date.innerHTML = dayOfMonth;
 }
 
-async function getQuotes() {
-  try {
-    const answer = await fetch('https://api.quotable.io/random');
-    const data = await answer.json();
-    return `${data.content}`;
-  } catch (error) {
-    console.error('Erro ao obter frase:', error);
-  }
-}
+//  async function getQuotes() {
+//    try {
+//      const answer = await fetch('https://api.quotable.io/random');
+//      const data = await answer.json();
+//      return `${data.content}`;
+//    } catch (error) {
+//      console.error('Erro ao obter frase:', error);
+//    }
+//  }
 
-async function quoteOfTheDay() {
-  const quoteElement = document.getElementById('quote');
-  const quote = await getQuotes();
+//  async function quoteOfTheDay() {
+//    const quoteElement = document.getElementById('quote');
+//    const quote = await getQuotes();
 
-  quoteElement.textContent = `'${quote}'`;
+//    quoteElement.textContent = `'${quote}'`;
 
-  if (quote == undefined) {
-    quoteElement.textContent =
-      "'I know the hatred and envy of your hearts. Ye are not great enough not to know of hatred and envy. Then be great enough not to be ashamed of them.'";
-  }
-}
+//    if (quote == undefined) {
+//      quoteElement.textContent =
+//        "'I know the hatred and envy of your hearts. Ye are not great enough not to know of hatred and envy. Then be great enough not to be ashamed of them.'";
+//    }
+//  }
 
 function darkTheme() {
   return (
