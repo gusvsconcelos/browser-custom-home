@@ -60,8 +60,8 @@ function updateFavicon() {
 function functionLoader() {
   time();
   date();
-  // quoteOfTheDay();
-  updateFavicon();
+  quoteOfTheDay();
+  // updateFavicon();
 }
 
 window.addEventListener('load', functionLoader, true);
