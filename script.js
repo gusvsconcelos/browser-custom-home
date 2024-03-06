@@ -51,9 +51,9 @@ function updateFavicon() {
   const favicon = document.getElementById('favicon');
 
   if (darkTheme()) {
-    favicon.href = 'icons/homewhite.ico';
+    favicon.href = 'icons/homelight.ico';
   } else {
-    favicon.href = 'icons/homeblack.ico';
+    favicon.href = 'icons/homedark.ico';
   }
 }
 
