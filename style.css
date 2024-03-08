@@ -27,22 +27,22 @@ body {
 }
 
 h1 {
-  font-size: 120px;
+  font-size: 130px;
   margin-bottom: 0px;
   color: #3c8070;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 22px;
   color: #557a84;
   margin: 0px;
 }
 
 p {
   font-family: 'Fantasque Sans Mono';
-  font-size: 14px;
+  font-size: 16px;
   font-style: italic;
-  color: #c62e76;
+  color: #c62e757a;
 }
 
 #rule {
@@ -67,7 +67,7 @@ li {
 a {
   text-decoration: none;
   font-size: 20px;
-  color: #30675a;
+  color: #557a84;
 }
 
 .ai {

@@ -51,9 +51,9 @@ function updateFavicon() {
   const favicon = document.getElementById('favicon');
 
   if (darkTheme()) {
-    favicon.href = 'icons/homelight.ico';
+    favicon.href = 'icons/favicon-white.ico';
   } else {
-    favicon.href = 'icons/homedark.ico';
+    favicon.href = 'icons/favicon-black.ico';
   }
 }
 
@@ -61,7 +61,7 @@ function functionLoader() {
   time();
   date();
   quoteOfTheDay();
-  // updateFavicon();
+  updateFavicon();
 }
 
 window.addEventListener('load', functionLoader, true);
