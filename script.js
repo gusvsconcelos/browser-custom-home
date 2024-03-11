@@ -1,13 +1,13 @@
 function time() {
   const newDate = new Date();
-  const formatedDate = newDate.toLocaleString('en-US', {
+  const formattedDate = newDate.toLocaleString('en-US', {
     hour: 'numeric',
     minute: 'numeric',
     hour12: true,
   });
   const hour = document.getElementById('hour');
 
-  hour.innerHTML = formatedDate.replace(/:/g, '<span class="blink">:</span>');
+  hour.innerHTML = formattedDate.replace(/:/g, '<span class="blink">:</span>');
 }
 
 function date() {
@@ -24,7 +24,7 @@ async function getQuotes() {
     const data = await answer.json();
     return `${data.content}`;
   } catch (error) {
-    console.error('Erro ao obter frase:', error);
+    console.error('Error retrieving quote:', error);
   }
 }
 
