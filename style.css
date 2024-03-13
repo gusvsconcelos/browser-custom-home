@@ -72,7 +72,6 @@ a {
 
 .ai {
   padding: 12px;
-  filter: sepia(70%) saturate(1000%) hue-rotate(90deg);
 }
 
 @keyframes blink {
