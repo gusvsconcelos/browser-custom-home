@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background-color: #141419;
+  background-color: #1a1b26;
   height: 100%;
   width: 50%;
   margin: 0;
@@ -29,12 +29,12 @@ body {
 h1 {
   font-size: 130px;
   margin-bottom: 0px;
-  color: #3c8070;
+  color: #73daca;
 }
 
 h2 {
   font-size: 22px;
-  color: #557a84;
+  color: #f7768e;
   margin: 0px;
 }
 
@@ -42,12 +42,12 @@ p {
   font-family: 'Fantasque Sans Mono';
   font-size: 16px;
   font-style: italic;
-  color: #c62e757a;
+  color: #bb9af7;
 }
 
 #rule {
   margin-bottom: 30px;
-  color: #365555;
+  color: #565f89;
   width: 100%;
   opacity: 30%;
 }
@@ -67,11 +67,12 @@ li {
 a {
   text-decoration: none;
   font-size: 20px;
-  color: #557a84;
+  color: #7aa2f7;
 }
 
 .ai {
   padding: 12px;
+  filter: sepia(70%) saturate(1000%) hue-rotate(90deg);
 }
 
 @keyframes blink {
