@@ -1,73 +1,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.cdnfonts.com/css/fantasque-sans-mono");
 
-html {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
+* {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #1a1b26;
-  height: 100%;
-  width: 50%;
-  margin: 0;
-  padding: 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  text-align: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 900px;
+  min-width: 500px;
+  margin: auto;
+  background-color: #1a1b26;
   font-family: Rajdhani;
+  text-align: center;
 }
 
-h1 {
+#info {
+  padding: 20px;
+}
+
+#hour {
+  display: block;
   font-size: 130px;
-  margin-bottom: 0px;
+  font-weight: bold;
   color: #73daca;
 }
 
-h2 {
-  font-size: 22px;
+#date {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
   color: #f7768e;
-  margin: 0px;
 }
 
-p {
+#quote {
   font-family: "Fantasque Sans Mono";
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
   font-style: italic;
   color: #bb9af7;
+  padding: 10px;
+  width: 800px;
 }
 
-#rule {
-  margin-bottom: 30px;
+hr {
   color: #565f89;
-  width: 100%;
-  opacity: 30%;
+  opacity: 10%;
 }
 
 #bookmarks {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 0px 0px 0px 40px;
+  padding: 40px;
+}
+
+ul {
+  columns: 4;
 }
 
 li {
   list-style-type: none;
-  padding: 0 64px 45px 0;
+  padding: 14px;
 }
 
 a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
   color: #7aa2f7;
+}
+
+a:hover {
+  color: #73daca;
 }
 
 .ai {

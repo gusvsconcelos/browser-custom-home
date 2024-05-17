@@ -6,91 +6,57 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="icon" type="image/x-icon" id="favicon" />
+    <script src="script.js"></script>
   </head>
   <body>
-    <h1>
-      <time id="hour"> 00:00 </time>
-    </h1>
+    <div id="container">
+      <section id="info">
+        <time id="hour">00:00</time>
+        <time id="date">00/00/00</time>
+        <p id="quote">[...]</p>
+      </section>
 
-    <h2>
-      <time id="date"> 00/00/00 </time>
-
-      <p id="quote">[...]</p>
-    </h2>
-
-    <hr id="rule" />
-
-    <section id="bookmarks">
-      <ul id="google">
-        <li>
-          <a class="gmail" href="https://mail.google.com/mail/u/0/#inbox"
-            >Gmail</a
-          >
-        </li>
-        <li>
-          <a class="youtube" href="https://www.youtube.com/">Youtube</a>
-        </li>
-        <li>
-          <a class="drive" href="https://drive.google.com/drive/u/0/my-drive"
-            >Drive</a
-          >
-        </li>
-      </ul>
-
-      <ul id="social">
-        <li>
-          <a class="instagram" href="https://www.instagram.com/">Instagram</a>
-        </li>
-        <li>
-          <a class="reddit" href="https://www.reddit.com/">Reddit</a>
-        </li>
-        <li>
-          <a class="whatsapp" href="https://web.whatsapp.com/">WhatsApp</a>
-        </li>
-      </ul>
-
-      <ul id="art">
-        <li>
-          <a class="twitch" href="https://www.twitch.tv/">Twitch</a>
-        </li>
-        <li>
-          <a class="artstation" href="https://www.artstation.com/"
-            >ArtStation</a
-          >
-        </li>
-        <li>
-          <a class="pinterest" href="https://br.pinterest.com/">Pinterest</a>
-        </li>
-      </ul>
-
-      <ul id="misc">
-        <li>
-          <a class="github" href="https://github.com/">GitHub</a>
-        </li>
-        <li>
-          <a class="roadmap" href="https://roadmap.sh/">Roadmaps</a>
-        </li>
-        <li>
-          <a class="notion" href="https://www.notion.so/gusvsconcelos"
-            >Notion</a
-          >
-        </li>
-      </ul>
-    </section>
-
-    <footer>
-      <a class="ai" href="https://chat.openai.com/">
-        <img src="icons/chatgpt.png" alt="ChatGPT" width="25px" />
-      </a>
-
-      <a
-        class="ai"
-        href="https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx"
-      >
-        <img src="icons/copilot.png" alt="Microsoft Copilot" width="25px" />
-      </a>
-    </footer>
-
-    <script src="script.js"></script>
+      <hr />
+      <section id="bookmarks">
+        <ul id="google">
+          <li>
+            <a href="https://mail.google.com">Gmail</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/">Youtube</a>
+          </li>
+          <li>
+            <a href="https://drive.google.com">Drive</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/">Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.reddit.com/">Reddit</a>
+          </li>
+          <li>
+            <a href="https://web.whatsapp.com/">WhatsApp</a>
+          </li>
+          <li>
+            <a href="https://www.twitch.tv/">Twitch</a>
+          </li>
+          <li>
+            <a href="https://www.artstation.com/">ArtStation</a>
+          </li>
+          <li>
+            <a href="https://br.pinterest.com/">Pinterest</a>
+          </li>
+          <li>
+            <a href="https://github.com/">GitHub</a>
+          </li>
+          <li>
+            <a href="https://roadmap.sh/">Roadmaps</a>
+          </li>
+          <li>
+            <a href="https://www.notion.so/gusvsconcelos">Notion</a>
+          </li>
+        </ul>
+      </section>
+    </div>
   </body>
 </html>
